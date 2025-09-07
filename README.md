@@ -38,7 +38,7 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-## Buyer
+## Buyer (Usage)
 python buyer/housing_utility_llm_demo.py \
   --csv data/rental-data-united-states_8_2_0.csv \
   --salary 6000 \
@@ -51,7 +51,7 @@ python buyer/housing_utility_llm_demo.py \
   --llm_num_predict 150 \
   --llm_retries 2
 
-## Seller
+## Seller (Usage)
 python housing_seller_advisor.py \
   --runs_glob "ranked_results_with_llm.csv" \
   --k 10 --min_buyers 1 --verbosity info

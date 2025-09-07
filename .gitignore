@@ -1,0 +1,59 @@
+# =======================================
+# Python
+# =======================================
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+*.pkl
+*.pickle
+
+# Virtual environments
+.venv/
+venv/
+env/
+myenv*/
+*.env
+.env.*
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Pytest / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =======================================
+# VS Code / Visual Studio
+# =======================================
+.vscode/
+.vs/
+*.code-workspace
+
+# =======================================
+# macOS
+# =======================================
+.DS_Store
+
+# =======================================
+# Data
+# =======================================
+# Ignorar todos los CSV pesados excepto muestras
+data/**/*.csv
+!data/rental-data-united-states_*.csv 
+
+# =======================================
+# Logs
+# =======================================
+*.log
+
+# =======================================
+# Otros
+# =======================================
+*.bak
+*.tmp
